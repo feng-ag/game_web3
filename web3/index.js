@@ -53,7 +53,7 @@ async function connect() {
       },
       options: {
         appName: 'Coinbase', 
-        networkUrl: `https://api.avax-test.network/ext/bc/C/rpc`,
+        networkUrl: `https://rpc.ankr.com/avalanche_fuji-c`,
         chainId: 43113,
       },
       package: window.WalletLink,
