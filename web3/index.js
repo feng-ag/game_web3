@@ -56,7 +56,7 @@ async function connect() {
         networkUrl: `https://api.avax-test.network/ext/bc/C/rpc`,
         chainId: 43113,
       },
-      package: WalletLink,
+      package: window.WalletLink,
       connector: async (_, options) => {
         const { appName, networkUrl, chainId } = options
         const walletLink = new WalletLink({
